@@ -53,4 +53,4 @@ GET /api/history – Fetch last 10 saved feedbacks
 ✅ Notes
  No API key or deployment required (mock AI used)
  MongoDB used locally for development
- Matches all requirements from the task PDF
+ 
