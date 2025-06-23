@@ -2,6 +2,8 @@
 
 A simple AI-powered feedback app built using **React**, **Node.js**, and **MongoDB**.  
 The app generates mock AI feedback (no OpenAI key needed) and stores user responses in a database.
+![AI Feedback App Screenshot](./screenshot.png)
+
 
 ##🛠 How to Run Locally
 
@@ -53,5 +55,7 @@ GET /api/history – Fetch last 10 saved feedbacks
 ✅ Notes
  No API key or deployment required (mock AI used)
  MongoDB used locally for development
- 
+
+
+
 
