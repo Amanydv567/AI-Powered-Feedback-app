@@ -38,4 +38,6 @@
     ]
   },
   "proxy": "http://localhost:5000"
+  "proxy": "https://ai-powered-feedback-app-pymq.onrender.com"
+
 }
