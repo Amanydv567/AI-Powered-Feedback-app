@@ -38,6 +38,6 @@
     ]
   },
   
-  "proxy": "https://ai-powered-feedback-app-1.onrender.com"
+"proxy": "http://localhost:5000"
 
 }
