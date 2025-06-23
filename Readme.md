@@ -26,7 +26,7 @@ cd ai-feedback-app
 
 
 Then run backened
-node index.js
+node app.js
 
 3.Frontend Setup
 
