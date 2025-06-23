@@ -9,8 +9,8 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-// Connect to MongoDB (simple local connection)
-mongoose.connect('mongodb://localhost:27017/feedbackdb')
+// Connect to MongoDB Atlas
+mongoose.connect('mongodb+srv://feedbackuser:feedback@cluster0.rog5srb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log('MongoDB Error:', err));
 
