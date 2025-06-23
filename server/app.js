@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB (simple local connection)
-mongoose.connect('mongodb://localhost:27017/')
+mongoose.connect('mongodb://localhost:27017/feedbackdb')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log('MongoDB Error:', err));
 
